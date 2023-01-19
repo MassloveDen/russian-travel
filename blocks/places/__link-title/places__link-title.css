@@ -1,0 +1,15 @@
+.places__link-title {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media (min-width:900px) {
+  .places__link-title {
+    line-height: 20px;
+  }
+}
