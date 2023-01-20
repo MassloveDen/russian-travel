@@ -1,27 +1,23 @@
-.places {
-    margin: 0 auto 92px;
+.lead {
     max-width: 984px;
+    margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1080px) {
-    .places {
+    .lead {
         max-width: calc(100vw - 48px * 2);
     }
 }
 
 @media screen and (max-width: 928px) {
-    .places {
+    .lead {
+        max-width: 100vw;
         margin-bottom: 88px;
-        max-width: calc(100vw - 24px * 2);
     }
 }
 
 @media screen and (max-width: 736px) {
-    .places {
+    .lead {
         margin-bottom: 64px;
-        max-width: 100vw;
-        /* max-width: calc(100vw - 16px * 2); */
     }
 }
-
-
