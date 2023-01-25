@@ -1,8 +1,0 @@
-.header__link {
-    text-decoration-line: none;
-    justify-self: flex-start;
-}
-
-.header__link:hover {
-    opacity: 0.8;
-}
