@@ -10,19 +10,14 @@
     box-sizing: border-box;
 }
 
-
-.place__paragraph:nth-of-type(2n) {
-    margin-bottom: 0;
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
-    }
-
-    .place__paragraph:last-of-type {
-        margin-bottom: 0;
     }
 }
 
