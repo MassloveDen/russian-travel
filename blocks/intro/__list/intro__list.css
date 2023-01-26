@@ -1,15 +1,25 @@
 .intro__list {
-    font-weight: bold;
+    list-style-type: none;
+    max-width: 690px;
+    margin: 33px 0 0 0;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 12px;
     line-height: 18px;
-    margin: 0;
-    padding: 0;
-    max-width: 720px;
-    list-style-type: none;
+    color: #FFFFFF;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1023px) {
     .intro__list {
-        max-width: calc(100vw - 16px * 2);
+        margin: 33px 24px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__list {
+        margin: 0 16px 0 0;
+        width: 100%;
     }
 }
